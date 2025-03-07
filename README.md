@@ -11,7 +11,7 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 - Aprēķināt kopējo uzturēšanās cenu
 - Saglabāt un ielādēt datus no .json vai .csv failiem
 
-###Papildu funkcionalitāte
+## Papildu funkcionalitāte
 
 - Rādīt populārākos numurus
 - Pievienot atlaides ilgākām rezervācijām
