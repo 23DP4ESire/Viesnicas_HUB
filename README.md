@@ -4,7 +4,7 @@
 ## Apraksts
 Viesnīcas rezervāciju sistēma ir Python balstīta programma, kas pārvalda viesnīcas istabu rezervācijas, klientu datus un aprēķina kopējo uzturēšanās cenu. Sistēma izmanto JSON un CSV failus datu glabāšanai.
 
-##Funkcionalitāte
+## Funkcionalitāte
 
 - Pievienot/rediģēt rezervācijas
 - Meklēt pieejamās istabas pēc datuma
