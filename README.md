@@ -1,57 +1,35 @@
-# Viesn-cas-pa-nieks
-
+# Viesnīcas rezervāciju sistēma
 
 ## Apraksts
-Viesnīcas rezervāciju sistēma ir Python balstīta programma, kas pārvalda viesnīcas istabu rezervācijas, klientu datus un aprēķina kopējo uzturēšanās cenu. Sistēma izmanto JSON un CSV failus datu glabāšanai.
+
+Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu rezervācijas, nodrošinot efektīvu un ērtu istabu pieejamības un rezervāciju pārvaldību.
 
 ## Funkcionalitāte
 
-- Pievienot/rediģēt rezervācijas
+- Pievienot un rediģēt rezervācijas
 - Meklēt pieejamās istabas pēc datuma
-- Aprēķināt uzturēšanās cenu
+- Aprēķināt kopējo uzturēšanās cenu
+- Saglabāt un ielādēt datus no .json vai .csv failiem
+
+###Papildu funkcionalitāte
+
 - Rādīt populārākos numurus
 - Pievienot atlaides ilgākām rezervācijām
 
-  
-## Instalācija un Lietošana
+# Datu struktūra
 
-1. Nepieciešamās bibliotēkas
+## Objekti
 
-Pirms programmas palaišanas jāinstalē nepieciešamās bibliotēkas:
-```sh
-pip install pandas
-```
+- Istaba (numurs, tips, cena, pieejamība)
+- Klients (vārds, uzvārds, rezervācijas vēsture)
+- Rezervācija (klients, istaba, ierašanās/izbraukšanas datumi)
 
+## Lietošana
 
+1. Palaist programmu
+2. Izmantot interfeisu vai komandrindas opcijas, lai pārvaldītu rezervācijas
+3. Dati tiek saglabāti un atjaunināti automātiski .json vai .csv failā
 
-2. Programmas Palaišana
+## Instalācija
 
-Lejupielādējiet projekta failus un izpildiet galveno Python skriptu:
-```sh
-python main.py
-```
-
-
-
-3. Datu glabāšana
-
-Dati tiek saglabāti failos:
-- istabas.json - Satur informāciju par istabām
-- klienti.json - Satur klientu datus
-- rezervacijas.csv - Rezervāciju vēsture
-
-
-## Projekta Struktūra
-```
-/projekts
-|-- data/
-|   |-- istabas.json
-|   |-- klienti.json
-|   |-- rezervacijas.csv
-|
-|-- main.py
-|-- rezervacijas.py
-|-- istabas.py
-|-- klienti.py
-|-- README.md
-```
+git clone <repo_url>
