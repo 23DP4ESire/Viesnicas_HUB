@@ -16,15 +16,16 @@ Viesnīcas rezervāciju sistēma ir Python balstīta programma, kas pārvalda vi
 ## Instalācija un Lietošana
 
 1. Nepieciešamās bibliotēkas
-Pirms programmas palaišanas jāinstalē nepieciešamās bibliotēkas:
 
-|-- pip install pandas
+Pirms programmas palaišanas jāinstalē nepieciešamās bibliotēkas:
+pip install pandas
+
 
 2. Programmas Palaišana
 
 Lejupielādējiet projekta failus un izpildiet galveno Python skriptu:
+python main.py
 
-|-- python main.py
 
 3. Datu glabāšana
 
@@ -32,6 +33,7 @@ Dati tiek saglabāti failos:
 - istabas.json - Satur informāciju par istabām
 - klienti.json - Satur klientu datus
 - rezervacijas.csv - Rezervāciju vēsture
+
 
 ## Projekta Struktūra
 /projekts
