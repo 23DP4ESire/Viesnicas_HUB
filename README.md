@@ -18,6 +18,9 @@ Viesnīcas rezervāciju sistēma ir Python balstīta programma, kas pārvalda vi
 1. Nepieciešamās bibliotēkas
 
 Pirms programmas palaišanas jāinstalē nepieciešamās bibliotēkas:
+```sh
+python main.py
+```
 pip install pandas
 
 
