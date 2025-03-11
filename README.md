@@ -31,5 +31,5 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 3. Dati tiek saglabāti un atjaunināti automātiski .json vai .csv failā
 
 ## Instalācija
-
-git clone <------>
+```bash
+git clone https://github.com/23DP4ESire/Viesnicas_HUB
