@@ -16,7 +16,8 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 - Rādīt populārākos numurus
 - Pievienot atlaides ilgākām rezervācijām
 
-# Datu struktūra
+
+## Datu struktūra
 
 ## Objekti
 
@@ -32,4 +33,5 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 
 ## Instalācija
 
-git clone https://github.com/23DP4ESire/Viesnicas_HUB.git
+```bash
+git clone https://github.com/23DP4ESire/Viesnicas_HUB
