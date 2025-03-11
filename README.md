@@ -32,4 +32,4 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 
 ## Instalācija
 
-git clone <repo_url>
+git clone https://github.com/23DP4ESire/Viesnicas_HUB.git
