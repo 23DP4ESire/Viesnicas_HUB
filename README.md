@@ -9,13 +9,13 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 - Pievienot un rediģēt rezervācijas
 - Meklēt pieejamās istabas pēc datuma
 - Aprēķināt kopējo uzturēšanās cenu
+- Koda valoda: Python
 - Saglabāt un ielādēt datus no .json vai .csv failiem
 
 ## Papildu funkcionalitāte
 
 - Rādīt populārākos numurus
 - Pievienot atlaides ilgākām rezervācijām
-
 
 ## Datu struktūra
 
