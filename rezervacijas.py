@@ -1,11 +1,11 @@
-from utils import ieladet_datus, saglabat_datus, validet_datumu
+from utils import ieladet_datus, saglabat_datus
 from istabas import istabas_fails
 
-REZERVACIJAS_FAILS = "data/rezervacijas.json"
+rezervacijas_fails = "data/rezervacijas.json"
 
 def meklet_pieejamas_istabas(no_datuma, lidz_datumam):
     istabas = ieladet_datus(istabas_fails)
-    rezervacijas = ieladet_datus(REZERVACIJAS_FAILS)
+    rezervacijas = ieladet_datus(rezervacijas_fails)
     pieejamas = []
 
     for istaba in istabas:
@@ -19,12 +19,12 @@ def meklet_pieejamas_istabas(no_datuma, lidz_datumam):
     return pieejamas
 
 def pievienot_rezervaciju(klients, istaba_numurs, no_datuma, lidz_datumam):
-    rezervacijas = ieladet_datus(REZERVACIJAS_FAILS)
+    rezervacijas = ieladet_datus(rezervacijas_fails)
     rezervacijas.append({
         "klients": klients,
         "istaba_numurs": istaba_numurs,
         "ierašanas": no_datuma,
         "izbrauksanas": lidz_datumam
     })
-    saglabat_datus(REZERVACIJAS_FAILS, rezervacijas)
+    saglabat_datus(rezervacijas_fails, rezervacijas)
     print("Rezervācija veiksmīgi pievienota!")
