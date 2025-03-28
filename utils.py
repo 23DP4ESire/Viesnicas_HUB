@@ -4,6 +4,8 @@ from datetime import datetime
 lietotaji_fails = "data/lietotaji.json"
 
 def ieladet_datus(fails):
+    """ Loads data from a JSON file. """
+    
     try:
         with open(fails, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -11,17 +13,23 @@ def ieladet_datus(fails):
         return {} if "lietotaji" in fails else []
 
 def saglabat_datus(fails, dati):
+    """ Saves data to a JSON file. """
+    
     with open(fails, "w", encoding="utf-8") as f:
         json.dump(dati, f, indent=4, ensure_ascii=False)
 
-def validet_datumu(datums):
+def validet_menesu(menesis):
+    """ Validates if the given input is in YYYY-MM format. """
+    
     try:
-        datetime.strptime(datums, "%Y-%m-%d")
+        datetime.strptime(menesis, "%Y-%m")
         return True
     except ValueError:
         return False
 
 def autentifikacija():
+    """ Handles user authentication and registration. """
+    
     lietotaji = ieladet_datus(lietotaji_fails)
     
     while True:
