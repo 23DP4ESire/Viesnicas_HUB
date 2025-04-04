@@ -1,4 +1,4 @@
-from rezervacijas import meklet_pieejamas_istabas, pievienot_rezervaciju
+from rezervacijas import meklet_pieejamas_istabas, pievienot_rezervaciju, paradit_rezervacijas
 from utils import validet_menesu, autentifikacija
 
 def main():
@@ -10,7 +10,8 @@ def main():
     while True:
         print("\n1. Meklēt pieejamās istabas")
         print("2. Pievienot rezervāciju")
-        print("3. Iziet")
+        print("3. Skatīt rezervācijas")
+        print("4. Iziet")
         izvele = input("Izvēlieties darbību: ")
 
         if izvele == "1":
@@ -22,7 +23,7 @@ def main():
             
             istabas = meklet_pieejamas_istabas(menesis)
             if istabas:
-                print("\n Ieteicamās istabas šajā mēnesī:")
+                print("\n Pieejamās istabas šajā mēnesī:")
                 for istaba in istabas:
                     print(f"Numurs: {istaba['numurs']}, Tips: {istaba['tips']}, Cena: {istaba['cena']} EUR")
             else:
@@ -46,10 +47,21 @@ def main():
             pievienot_rezervaciju(epasts, istaba_numurs, no_datuma, lidz_datumam)
 
         elif izvele == "3":
+            paradit_rezervacijas()
+            
+
+        elif izvele == "4":
             print("Programma beidzas.")
+
             break
         else:
             print("Nepareiza izvēle! Mēģiniet vēlreiz.")
+
+
+        
+
+
+
 
 if __name__ == "__main__":
     main()

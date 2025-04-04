@@ -2,6 +2,9 @@
     {"numurs": 101, "tips": "Standarta", "cena": 50},
     {"numurs": 102, "tips": "Standarta", "cena": 50},
     {"numurs": 103, "tips": "Luksus", "cena": 100},
-    {"numurs": 104, "tips": "Vip", "cena": 130},
-    {"numurs": 105, "tips": "Vip", "cena": 135}
+    {"numurs": 104, "tips": "Luksus", "cena": 100},
+    {"numurs": 105, "tips": "Vip", "cena": 130},
+    {"numurs": 106, "tips": "Vip", "cena": 135},
+    {"numurs": 107, "tips": "Standarta", "cena": 60},
+    {"numurs": 108, "tips": "Standarta", "cena": 60}
 ]
