@@ -1,8 +1,20 @@
 [
     {
-        "klients": "emils@gmail.com",
-        "istaba_numurs": 106,
-        "ierašanas": "2025-05",
-        "izbrauksanas": "2025-06"
+        "klients": "e@gmail.com",
+        "istaba_numurs": 105,
+        "ierašanas": "2025-05-26",
+        "izbrauksanas": "2025-06-01"
+    },
+    {
+        "klients": "e@gmail.com",
+        "istaba_numurs": 113,
+        "ierašanas": "2025-05-16",
+        "izbrauksanas": "2025-05-17"
+    },
+    {
+        "klients": "e@gmail.com",
+        "istaba_numurs": 101,
+        "ierašanas": "2025-05-11",
+        "izbrauksanas": "2025-05-12"
     }
 ]

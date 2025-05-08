@@ -12,7 +12,6 @@ def ieladet_datus(fails):
         return {} if "lietotaji" in fails else []
 
 def saglabat_datus(fails, dati):
-    """ Saves data to a JSON file. """
     
     with open(fails, "w", encoding="utf-8") as f:
         json.dump(dati, f, indent=4, ensure_ascii=False)
@@ -21,6 +20,13 @@ def validet_menesu(menesis):
     
     try:
         datetime.strptime(menesis, "%Y-%m")
+        return True
+    except ValueError:
+        return False
+
+def validet_datumu(datums):
+    try:
+        datetime.strptime(datums, "%Y-%m-%d")
         return True
     except ValueError:
         return False

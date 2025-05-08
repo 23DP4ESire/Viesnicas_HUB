@@ -1,10 +1,16 @@
 [
     {"numurs": 101, "tips": "Standarta", "cena": 50},
     {"numurs": 102, "tips": "Standarta", "cena": 50},
-    {"numurs": 103, "tips": "Luksus", "cena": 100},
+    {"numurs": 103, "tips": "Standarta", "cena": 50},
     {"numurs": 104, "tips": "Luksus", "cena": 100},
-    {"numurs": 105, "tips": "Vip", "cena": 130},
-    {"numurs": 106, "tips": "Vip", "cena": 135},
-    {"numurs": 107, "tips": "Standarta", "cena": 60},
-    {"numurs": 108, "tips": "Standarta", "cena": 60}
+    {"numurs": 105, "tips": "Luksus", "cena": 115},
+    {"numurs": 106, "tips": "Luksus", "cena": 100},
+    {"numurs": 107, "tips": "Luksus", "cena": 115},
+    {"numurs": 108, "tips": "Vip", "cena": 130},
+    {"numurs": 109, "tips": "Vip", "cena": 135},
+    {"numurs": 110, "tips": "Vip", "cena": 130},
+    {"numurs": 111, "tips": "Vip", "cena": 135},
+    {"numurs": 112, "tips": "Standarta", "cena": 60},
+    {"numurs": 113, "tips": "Standarta", "cena": 60},
+    {"numurs": 114, "tips": "Standarta", "cena": 60}
 ]
