@@ -1,15 +1,12 @@
 # Viesnīcas rezervāciju sistēma
 
-
-
-##  Saturs
+## Saturs
 
 1. [Apraksts](#apraksts)
 2. [Funkcionalitāte](#funkcionalitāte)
-3. [Papildu funkcionalitāte](#papildu-funkcionalitāte)
-4. [Datu struktūra](#datu-struktūra)
-5. [Lietošanas instrukcija](#lietošanas-instrukcija)
-6. [Instalācija](#instalācija)
+3. [Datu struktūra](#datu-struktūra)
+4. [Lietošanas instrukcija](#lietošanas-instrukcija)
+5. [Instalācija](#instalācija)
 
 ## Apraksts
 
@@ -22,8 +19,6 @@ Viesnīcas rezervāciju sistēma ir programma, kas pārvalda viesnīcas istabu r
 - **Aprēķināt kopējo uzturēšanās cenu**
 - **Koda valoda**: Python
 - **Datu saglabāšana un ielāde**: .json vai .csv faili
-
-
 
 ## Datu struktūra
 
@@ -71,6 +66,3 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
----
-

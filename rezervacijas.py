@@ -77,7 +77,7 @@ def pievienot_rezervaciju(klients, istaba_numurs, no_datuma, lidz_datumam):
     saglabat_datus(rezervacijas_fails, rezervacijas)
     print("Rezervācija veiksmīgi pievienota!")
 
-def paradit_rezervacijas():
+def paradit_rezervacijas(epasts_filtrs=None):
     rezervacijas = ieladet_datus(rezervacijas_fails)
     istabas = ieladet_datus(istabas_fails)
 
@@ -87,6 +87,9 @@ def paradit_rezervacijas():
 
     print("\nAktīvās rezervācijas:")
     for rez in rezervacijas:
+        if epasts_filtrs and rez["klients"].lower() != epasts_filtrs.lower():
+            continue
+
         istaba = None
         for i in istabas:
             if i["numurs"] == rez["istaba_numurs"]:
@@ -108,8 +111,8 @@ def paradit_rezervacijas():
             kopēja_cena = dienu_skaits * cena_par_dienu
 
             print(f"Istaba #{rez['istaba_numurs']} | Klients: {rez['klients']} | "
-            f"Ierašanās: {rez['ierašanas']} | Izbraukšana: {rez['izbrauksanas']} | "
-            f"Cena par {dienu_skaits} naktīm: {kopēja_cena} EUR")
+                  f"Ierašanās: {rez['ierašanas']} | Izbraukšana: {rez['izbrauksanas']} | "
+                  f"Cena par {dienu_skaits} naktīm: {kopēja_cena} EUR")
         else:
             print(f"Istaba #{rez['istaba_numurs']} — nav atrasta datu bāzē.")
 
