@@ -28,5 +28,23 @@
         "istaba_numurs": 112,
         "ierašanas": "2025-05-20",
         "izbrauksanas": "2025-05-21"
+    },
+    {
+        "klients": "e@gmail.com",
+        "istaba_numurs": 102,
+        "ierašanas": "2025-05-25",
+        "izbrauksanas": "2025-05-26"
+    },
+    {
+        "klients": "e@gmail.com",
+        "istaba_numurs": 109,
+        "ierašanas": "2025-05-17",
+        "izbrauksanas": "2025-05-19"
+    },
+    {
+        "klients": "emils@gmail.com",
+        "istaba_numurs": 107,
+        "ierašanas": "2025-05-09",
+        "izbrauksanas": "2025-05-10"
     }
 ]
